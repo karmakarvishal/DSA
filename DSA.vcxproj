@@ -140,6 +140,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="DSA.cpp" />
+    <ClCompile Include="GraphDS.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GraphDS.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
