@@ -4,7 +4,10 @@
 using namespace std;
 #include <iostream>
 #include <list>
+#include <vector>;
 #include "GraphDS.h";
+#include "Recursion.h";
+
 
 
 
@@ -15,6 +18,31 @@ using namespace std;
 
 int main()
 {
+
+    
+    //For Recursion
+
+    int n = 3;
+    Recursion rec;
+    int factorial  = rec.factorial(n);
+    cout << "Factorial: " << factorial << endl;
+    int fibonacci = rec.fibonacci(n);
+    cout << "Fibonacci: " << fibonacci << endl;
+    int sum = rec.sumOf_N_NaturalNumber(n);
+    cout << "sumOf_N_NaturalNumber: " << sum << endl;
+    string s = "sdfsdfdsfdsf";
+    cout << "IsPalindrome: " << rec.isPalindrome(s, 0, s.length() - 1) << endl;
+    int number = 10;
+    cout << "Sum Of Digits: " << rec.sumOfDigits(number) << endl;
+
+
+
+
+    //For Array
+   /* vector<int> A = { 34,30,3,5,9 };
+
+    Array arr;
+    arr.largestNumber(A);*/
 
     //For BFS.
    /* GraphDS g(4);

@@ -21,9 +21,21 @@
     <ClCompile Include="GraphDS.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Array.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Recursion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GraphDS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Array.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Recursion.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
